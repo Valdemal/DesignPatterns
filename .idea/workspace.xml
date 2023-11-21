@@ -1,21 +1,311 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="210fb517-fb93-46e0-ad2d-b320d6e5664b" name="Default Changelist" comment="" />
+    <list default="true" id="210fb517-fb93-46e0-ad2d-b320d6e5664b" name="Default Changelist" comment="Изучен паттерн &quot;Состояние&quot;">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Command/button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Command/command.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Command/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Command/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Command/text1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Behavioral/Command/text3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/FurnituerFactory/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/FurnituerFactory/furniture.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/FurnituerFactory/furniture_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/FurnituerFactory/modern.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/FurnituerFactory/modern_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/FurnituerFactory/victorian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/FurnituerFactory/victorian_factory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/AbstractFactory/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Protorype/Weapon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational/Protorype/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Adapter/Adapters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Adapter/ClosedClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Adapter/Person.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Adapter/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Bridge/sound.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Composite/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Decorator/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Structural/Flyweight/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Design Patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Design Patterns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/.idea/AbstractFactory.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/FurnituerFactory/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/FurnituerFactory/furniture.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/FurnituerFactory/furniture_factory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/FurnituerFactory/modern.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/FurnituerFactory/modern_factory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/FurnituerFactory/victorian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/FurnituerFactory/victorian_factory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactory/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adapter/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adapter/.idea/Adapter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adapter/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adapter/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adapter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adapter/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adapter/Adapters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adapter/ClosedClass.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adapter/Person.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adapter/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bridge/.idea/Bridge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bridge/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bridge/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bridge/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bridge/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bridge/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bridge/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bridge/sound.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChainOfResponsability/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/ChainOfResponsability/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Command/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Command/.idea/Command.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Command/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Command/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Command/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Command/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Command/button.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Command/command.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Command/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Command/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Command/text1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Command/text3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composite/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composite/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composite/.idea/Composite.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composite/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composite/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composite/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composite/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composite/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator/.idea/Decorator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decorator/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flyweight/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flyweight/.idea/Flyweight.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flyweight/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flyweight/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flyweight/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flyweight/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flyweight/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mediator/abstract.py" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Mediator/abstract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mediator/components.py" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Mediator/components.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mediator/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Mediator/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Memento/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Memento/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Observer/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/Observer/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protorype/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protorype/.idea/Bridge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protorype/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protorype/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protorype/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protorype/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protorype/Weapon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Protorype/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/State/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/State/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/State/states.py" beforeDir="false" afterPath="$PROJECT_DIR$/Behavioral/State/states.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2AtRiXY8oSVK1in1IZ4fjsRph70" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Development/venvs/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Development\Projects\DesignPatterns\Behavioral" />
+      <recent name="C:\Development\Projects\DesignPatterns\Structural" />
+      <recent name="C:\Development\Projects\DesignPatterns\Generative" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main (5)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Design Patterns" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bridge" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bridge/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Design Patterns" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mediator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mediator/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Design Patterns" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Memento" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Memento/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Design Patterns" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Observer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Observer/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (5)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Design Patterns" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/State" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/State/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Design Patterns" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Development\venvs\test\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.11 (test)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ChainOfResponsability" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ChainOfResponsability/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (5)" />
+        <item itemvalue="Python.main (4)" />
+        <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -26,10 +316,88 @@
       <option name="presentableId" value="Default" />
       <updated>1655827029461</updated>
       <workItem from="1655827032201" duration="351000" />
+      <workItem from="1691431148543" duration="995000" />
+      <workItem from="1691491042681" duration="2645000" />
+      <workItem from="1691568527707" duration="3889000" />
+      <workItem from="1691653935827" duration="1654000" />
+      <workItem from="1692774499972" duration="6550000" />
+      <workItem from="1692882921721" duration="2000" />
+      <workItem from="1692959006143" duration="52000" />
+      <workItem from="1693821157690" duration="2041000" />
+      <workItem from="1693916115287" duration="2999000" />
+      <workItem from="1700572042461" duration="574000" />
     </task>
+    <task id="LOCAL-00001" summary="Изучен паттерн &quot;Цепочка обязанностей&quot;">
+      <created>1691493456608</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691493456608</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Изучен паттерн &quot;Посредник&quot;">
+      <created>1691573377886</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691573377886</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Изучен паттерн &quot;Снимок&quot;">
+      <created>1691656626684</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691656626684</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Изучен паттерн &quot;Наблюдатель&quot;">
+      <created>1692799253228</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692799253228</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Изучен паттерн &quot;Состояние&quot;">
+      <created>1693924064052</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693924064052</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Изучен паттерн &quot;Цепочка обязанностей&quot;" />
+    <MESSAGE value="Изучен паттерн &quot;Посредник&quot;" />
+    <MESSAGE value="Изучен паттерн &quot;Снимок&quot;" />
+    <MESSAGE value="Изучен паттерн &quot;Наблюдатель&quot;" />
+    <MESSAGE value="Изучен паттерн &quot;Состояние&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изучен паттерн &quot;Состояние&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Behavioral/Observer/main.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Behavioral/State/main.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DesignPatterns$main__5_.coverage" NAME="main (5) Coverage Results" MODIFIED="1693918348000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/State" />
+    <SUITE FILE_PATH="coverage/DesignPatterns$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1691492331112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bridge" />
+    <SUITE FILE_PATH="coverage/DesignPatterns$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1693821219358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Observer" />
+    <SUITE FILE_PATH="coverage/DesignPatterns$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1691656591140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Memento" />
+    <SUITE FILE_PATH="coverage/DesignPatterns$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1691573145898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Mediator" />
+    <SUITE FILE_PATH="coverage/DesignPatterns$main.coverage" NAME="main Coverage Results" MODIFIED="1691493283015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ChainOfResponsability" />
   </component>
 </project>
